@@ -2,7 +2,9 @@
 require('models/conexion.php');
 $query=mysqli_query($con,"SELECT * FROM horario");
 ?>
+<a href="index.php?pag=insertartipoh">
 <button>insertar</button>
+</a>
 <table border=1>
     <thead> <th>id </th> <th>modificar</th> <th>eliminar</th> </thead>
         <tbody>
@@ -16,5 +18,5 @@ $query=mysqli_query($con,"SELECT * FROM horario");
 
             }
 
-
 ?>
+
